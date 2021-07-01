@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
+
+body {
+  background: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+  padding-top: 70px;
+}
+
+
+/*---------------------------------------
+   TYPOGRAPHY              
+-----------------------------------------*/
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  line-height: inherit;
+}
+
+h1 {
+  color: #252525;
+  font-size: 2em;
+  line-height: normal;
+}
+
+h2 {
+  color: #353535;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h3,
+h3 a {
+  color: #454545;
+}
+
+p {
+  color: #757575;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+
+
+/*---------------------------------------
+   GENERAL               
+-----------------------------------------*/
+
+html{
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+section {
+  position: relative;
+  padding: 100px 0;
+}
+
+
+
+
+
+/*---------------------------------------
+   BUTTONS               
+-----------------------------------------*/
+
+.section-btn {
+  background: transparent;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: inherit;
+  font-weight: normal;
+  padding: 15px 30px;
+  transition: 0.5s;
+}
+
+.section-btn:hover {
+  background: #ffffff;
+  border-color: transparent;
+}
+
+
+
+
+  /*---------------------------------------
+      MENU              
+  -----------------------------------------*/
+  
+  .text-primary { color: #29ca8e; }
+
+  .custom-navbar {
+    background: #ffffff;
+    border-top: 5px solid #29ca8e;
+    border-bottom: 0;
+    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .custom-navbar .navbar-brand {
+    color: #454545;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+  }
+
+  .custom-navbar .navbar-nav.navbar-nav-first {
+    margin-left: 8em;
+  }
+
+  .custom-navbar .navbar-nav.navbar-right li a {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .custom-navbar .navbar-nav.navbar-right li a .fa {
+    background: #29ca8e;
+    border-radius: 100%;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .custom-navbar .nav li a {
+    line-height: 40px;
+    color: #575757;
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+
+  .custom-navbar .navbar-nav > li > a:hover,
+  .custom-navbar .navbar-nav > li > a:focus {
+    background-color: transparent;
+  }
+
+  .custom-navbar .nav li a:hover {
+    background-color: #29ca8e;
+    color: #ffffff;
+  }
+
+  .custom-navbar .nav li.active > a {
+    background-color: #29ca8e;
+    color: #ffffff;
+  }
+
+  .custom-navbar .navbar-toggle {
+    border: none;
+    padding-top: 10px;
+  }
+
+  .custom-navbar .navbar-toggle {
+    background-color: transparent;
+  }
+
+  .custom-navbar .navbar-toggle .icon-bar {
+    background: #252525;
+    border-color: transparent;
+  }
+
+
+
+/*---------------------------------------
+   Sign up page             
+-----------------------------------------*/
+
+.container {
+    background-color:#D7D8DD;
+    box-shadow: 0 0 5px #D7D8DD;
+    width: 400px;
+    min-height: 300px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input-data {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    margin: 10px 0 2px 0px;
+    
+}
+
+input[type=text] {
+    width: 353px;
+    height: 40px;
+    border: #413f3f solid 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:#413f3f;
+}
+
+.form-terms {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    align-self: flex-start;
+    margin: 20px 0 20px 0;
+}
+
+.form-terms label {
+    color: #887C7C;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navy-blue {
+    color: #0E2248;
+}
+
+#create-account-button {
+    width: 353px;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(58,116,167,0.8) 49%,rgba(68,137,197,0.8) 77%,rgba(75,154,221,0.99) 99%,rgba(125,185,232,1) 100%);
+    opacity: 0.8;
+    color: #F7F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 3px;
+}
+.have-account {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #887C7C;
+    margin: 25px 0 7px 0;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
